@@ -66,4 +66,89 @@ nav {
 .donate-btn:hover {
     background: #dc2626;
 }
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 /* headder css ends */
+/* hero section starts */
+.hero {
+    background: linear-gradient(135deg,#fff5f5 0%,#ffe4e4 100%);
+    padding: 120px 5%  60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+.hero-content h1 {
+    font-size: 3.5rem;
+    color: #ef4444;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.hero-content p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+.hero-features{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 2rem 0;
+}
+.hero-features div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.hero-features i {
+    color: #10b981;
+    font-size: 1.2rem;
+}
+.hero-image {
+    position: relative;
+}
+.hero-image  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* hero section ends */
+/* stats section */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    padding: 60px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.stat-card {
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px rgba(0,0, 0, 0.08);
+
+}
+.stat-card h2 {
+    font-size: 3rem;
+    color: #ef4444;
+    margin-bottom: 0.5rem;
+
+}
+.stat-card p {
+    color:#666 ;
+    font-size: 1.1rem;
+}
+/* stats section */
