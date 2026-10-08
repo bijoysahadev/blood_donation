@@ -204,3 +204,62 @@ nav {
     line-height: 1.8;
     color: #666;
 }
+/* how it works ends */
+/* testiominal start */
+.tesimionals {
+    padding: 80px 5%;
+    background: white;
+}
+.testionial-grid{
+   
+   display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.testionial-card{
+background: #fff5f5;
+padding: 2rem;
+border-radius: 1rem;
+border: 2px solid #ffe4e4;
+transition: all 0.3s ease-in-out;
+}
+.testionial-card:hover {
+    transform: scale(1.06);
+}
+.stars {
+    color: #fbbf24;
+    margin-bottom: 1rem;
+}
+.testiominal-text {
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    font-style: italic;
+}
+.testimoini-author{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.author-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ef4444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.author-info {
+    color: #333;
+    font-size: 1rem;
+}
+.author-info p {
+    color: #999;
+    font-size: 0.9rem;
+}
+/* testiominal end */
