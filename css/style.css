@@ -345,4 +345,60 @@ padding: 80px 5%;
 }
 /* faq */
 /* footer  */
+footer {
+    background: #ef4444;
+    color: white;
+    padding: 60px 5% 20px;
+
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 3rem;
+    max-width: 1400px;
+    margin: 0 auto 3rem;
+}
+.footer-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.footer-section ul {
+    list-style: none;
+}
+.footer-section ul li {
+    margin-bottom: 0.8rem;
+}
+.footer-section ul li a{
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: all 0.3 ease;
+}
+.footer-section ul li a:hover {
+    opacity: 1;
+}
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.social-links a {
+    background: rgba(255, 255, 255, 0.2);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+.social-links a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
 /* footer  */
