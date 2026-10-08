@@ -300,3 +300,49 @@ padding: 80px 5%;
     margin-top: 0.3rem;
 }
 /* benfit section */
+/* faq */
+.faq {
+    padding: 80px 5%;
+    background: white;
+
+}
+.faq-container {
+    max-width: 900px;
+    margin: 0 auto;
+
+    
+
+}
+.faq-item {
+    background: white;
+    border: 2px solid #ffe4e4;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+.faq-question {
+    padding: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    transition: background 0.3 ease;
+}
+.faq-question:hover {
+    background: #fff5f5;
+}
+.faq-answer {
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease , padding 0.3s ease;
+}
+.faq-answer.active {
+    max-height: 500px;
+    padding: 0 1.5rem 1.5rem;
+
+}
+/* faq */
+/* footer  */
+/* footer  */
