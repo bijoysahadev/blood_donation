@@ -152,3 +152,55 @@ nav {
     font-size: 1.1rem;
 }
 /* stats section */
+/* how it works */
+/* how it works */
+.how-it-works{
+    padding: 80px 5%;
+    background: #fff5f5;
+}
+.section-tittle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ef4444;
+    margin-bottom: 3rem;
+}
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.step-card {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+.step-card:hover {
+    transform: translateY(-10px);
+}
+.step-number {
+    background: #ef4444;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.step-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+
+}
+.stap-card p {
+    line-height: 1.8;
+    color: #666;
+}
