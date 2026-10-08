@@ -200,13 +200,13 @@ nav {
     font-size: 1.3rem;
 
 }
-.stap-card p {
+.step-card p {
     line-height: 1.8;
     color: #666;
 }
 /* how it works ends */
 /* testiominal start */
-.tesimionals {
+.testominals {
     padding: 80px 5%;
     background: white;
 }
@@ -263,3 +263,40 @@ transition: all 0.3s ease-in-out;
     font-size: 0.9rem;
 }
 /* testiominal end */
+/* benfit section */
+.benefits {
+padding: 80px 5%;
+ background: linear-gradient(135deg,#fff5f5 0%,#ffe4e4 100%);
+
+}
+.benefits-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.benefit-item {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+.benefit-icon {
+    font-size: 4rem;
+    color: #ef4444;
+}
+.benefit-contnent h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.benefit-list {
+    list-style: none;
+
+}
+.benefit-list i {
+    color: #10b981;
+    margin-top: 0.3rem;
+}
+/* benfit section */
